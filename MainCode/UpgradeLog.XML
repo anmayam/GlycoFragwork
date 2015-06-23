@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="GlycoFragwork">
+</Property><Property Name="Solution File" Value="I:\IU\GlycoFragwork\src\MainCode\GlycoFragwork.sln">
+</Property><Property Name="User Options File" Value="I:\IU\GlycoFragwork\src\MainCode\GlycoFragwork.suo">
+</Property><Property Name="Date" Value="Wednesday, January 08, 2014">
+</Property><Property Name="Time" Value="18:38 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="GlycoFragwork.sln" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragwork.sln">
+</Event><Event ErrorLevel="0" Project="" Source="GlycoFragwork.suo" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragwork.suo">
+</Event><Event ErrorLevel="0" Project="GlycoFragWorkInstaller.vdproj" Source="GlycoFragWorkInstaller\GlycoFragWorkInstaller.vdproj" Description="Project file successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragWorkInstaller\GlycoFragWorkInstaller.vdproj">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\GlycoFragworkConsole.csproj" Description="Project file successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkConsole\GlycoFragworkConsole.csproj">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\GlycoFragworkConsole.csproj.user" Description="Project user file successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkConsole\GlycoFragworkConsole.csproj.user">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\Program.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkConsole\Program.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\Properties\AssemblyInfo.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkConsole\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\GlycoFragworkConsole.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\GlycoFragworkConsole.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\GlycoFragworkDLL.csproj" Description="Project file successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\GlycoFragworkDLL.csproj">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Class1.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Class1.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\FragEvents.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\FragEvents.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\NonGlycopeptideRecord.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\NonGlycopeptideRecord.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\Params.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\Params.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\GlycopeptideRecord.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\GlycopeptideRecord.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\MapRecord.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\MapRecord.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\MultiAlignRecord.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\MultiAlignRecord.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Classes\UMCRecord.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Classes\UMCRecord.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Properties\AssemblyInfo.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Tasks\MapCreator.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Tasks\MapCreator.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Tasks\MapMergeIDs.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Tasks\MapMergeIDs.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Tasks\MapParser.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Tasks\MapParser.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Tasks\MapScorer.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Tasks\MapScorer.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Tasks\MapWriter.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Tasks\MapWriter.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Utils\CSVFileHandler.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Utils\CSVFileHandler.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Utils\SpectralUtilities.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Utils\SpectralUtilities.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Utils\TempCode.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Utils\TempCode.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\Utils\Utilities.cs" Description="File successfully backed up as I:\IU\GlycoFragwork\src\MainCode\Backup\GlycoFragworkDLL\Utils\Utilities.cs">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\GlycoFragworkDLL.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\GlycoFragworkDLL.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="GlycoFragwork.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="GlycoFragwork.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkConsole" Source="GlycoFragworkConsole\GlycoFragworkConsole.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="GlycoFragworkDLL" Source="GlycoFragworkDLL\GlycoFragworkDLL.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,10 @@
+﻿IUPAC	Distance_To_Root	{Denied,Required,Option}	Comment
+Hex-(Hex-)Hex-HexNAc-HexNAc	=0	Required	N-Linked Structure
+Fuc-Hex	*	Denied	Fucose can't connect to Hex
+Fuc-Fuc	*	Denied	Fucose can't connect to Fuc
+Fuc-NeuAc	*	Denied	Fucose can't connect to NeuAc
+Fuc-NeuGc	*	Denied	Fucose can't connect to NeuGc
+#NeuAc	<4	Denied	NeuNAc can't connect to the glycan which is close to the root of glycan.
+Hex-(Hex-)(Hex-)Hex	=2	Denied	tri-antenna can not be three Hex
+HexNAc-HexNAc	>3	Denied
+HexNac-Hex-Hex	>3	Denied

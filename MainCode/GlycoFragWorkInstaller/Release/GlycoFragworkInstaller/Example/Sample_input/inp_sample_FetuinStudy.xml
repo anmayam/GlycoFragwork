@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<inputinfo>
+	<version>1.0</version>
+	<MAPFile>D:\data\GlycoFragwork\ForPaper\FetuinMap\Map\fetuin_hcd_cid_etd_mln.csv</MAPFile>
+	<GlycanFile>C:\development\GlycoFragwork\GlycoFragworkDLL\DLLs\Default_Combination_V2.csv</GlycanFile>
+	<FastaFile>D:\data\Fasta\Fetuin_AB.fasta</FastaFile>
+	<GlycopeptideFile>D:\data\Fasta\GPInfo\Fetuin_AB_GPInfo_v2.csv</GlycopeptideFile>	
+	<RAW>
+		<File>D:\data\GlycoFragwork\ForPaper\FetuinMap\Raw\Fetuin25MS900-090808-03.RAW</File>
+		<CID>True</CID>
+		<HCD>True</HCD>
+		<ETD>False</ETD>		
+	</RAW>		
+	<RAW>
+		<File>D:\data\GlycoFragwork\ForPaper\FetuinMap\Raw\Fetuin_062911_SA.raw</File>
+		<CID>True</CID>
+		<HCD>True</HCD>
+		<ETD>False</ETD>
+	</RAW>
+	<RAW>
+		<File>D:\data\GlycoFragwork\ForPaper\FetuinMap\Raw\Fetuin_400ng_ETD_100RA_062212.raw</File>
+		<CID>True</CID>
+		<HCD>True</HCD>
+		<ETD>True</ETD>
+	</RAW>	
+</inputinfo>

@@ -1,0 +1,11 @@
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\GlycoFragworkDLL.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\GlycoFragworkDLL.pdb
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\GlypIDEngine.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\MwtWinDll.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\obj\Release\ResolveAssemblyReference.cache
+C:\development\GlycoFragwork\GlycoFragworkDLL\obj\Release\GlycoFragworkDLL.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\obj\Release\GlycoFragworkDLL.pdb
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\GlycoLib.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\GlycoSequence.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\MassLib.dll
+C:\development\GlycoFragwork\GlycoFragworkDLL\bin\Release\ProtLib.dll

@@ -1,0 +1,15 @@
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoFragworkConsole.exe
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoFragworkConsole.pdb
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoFragworkDLL.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlypIDEngine.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\MwtWinDll.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoFragworkDLL.pdb
+C:\development\GlycoFragwork\GlycoFragworkConsole\obj\Release\ResolveAssemblyReference.cache
+C:\development\GlycoFragwork\GlycoFragworkConsole\obj\Release\GlycoFragworkConsole.exe
+C:\development\GlycoFragwork\GlycoFragworkConsole\obj\Release\GlycoFragworkConsole.pdb
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\MassLib.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoLib.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\ProtLib.dll
+C:\development\GlycoFragwork\GlycoFragworkConsole\bin\Release\GlycoSequence.dll
+I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\obj\Release\GlycoFragworkConsole.exe
+I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\obj\Release\GlycoFragworkConsole.pdb

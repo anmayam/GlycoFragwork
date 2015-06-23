@@ -1,0 +1,8 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartArguments>-i D:\data\GlycoEnriched\CancerDFMap\Map1\inp_CA_DF_HCDCID.xml -p D:\data\GlycoEnriched\CancerDFMap\Map1\param_CA_DF_HCDCID.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <StartArguments>-i D:\data\GlycoMapQuant\ForPaper\Fetuin_HILIC\MAP\Map2\inpFetuinHILIC_5SG.xml -p D:\data\GlycoMapQuant\ForPaper\Fetuin_HILIC\MAP\Map2\paramFetuinHILIC_5SG.xml</StartArguments>
+  </PropertyGroup>
+</Project>

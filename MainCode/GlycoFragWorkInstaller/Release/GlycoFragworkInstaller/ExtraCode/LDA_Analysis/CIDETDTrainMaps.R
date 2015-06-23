@@ -1,0 +1,102 @@
+# Anoop Mayampurath
+# R Program to classify FALSE DECOY based on ETD vs CID scoring for a map
+
+rm(list = ls())
+
+library(verification) ; 
+library(ROCR) ; 
+library(MASS) ;
+library(klaR) ;  
+
+plot <- 1 ; 
+
+
+
+# SET Input output
+filename1 <- "D:\\data\\....Fetuin_sample_inputmap_glycopeptides.csv";
+filenameout <- "D:\\data\\..Fetuin_sample_inputmap_glycopeptides_LDA.csv" ; 
+
+
+
+
+all.X <- read.csv(filename1, header = TRUE) ; 
+X <- all.X[which(all.X$TypeID != 'Unverified'),] ; 
+
+if (plot)
+{
+ind.TRUE <- which(X$TRUE_FALSE =='TRUE') ; 
+ind.FALSE <- which(X$TRUE_FALSE == 'FALSE') ; 
+plot(X$RepETDScore[ind.TRUE], X$RepCIDSeqScore[ind.TRUE], type = "p", pch = 'T', col = "blue", xlab = "ETD_Score", ylab = "CID Sequencing Score") ; 
+points(X$RepETDScore[ind.FALSE],X$RepCIDSeqScore[ind.FALSE], pch= 'F', col = "red") ; 
+}
+
+
+data.train <- X[which((X$RepCIDSeqScore > 0) & (X$RepETDScore > 0)),] # For datasets with few points, set data.train <-X; 
+
+
+
+model.LDA <- lda(TRUE_FALSE ~ (RepCIDSeqScore) + (RepETDScore), data = data.train) ; 
+
+if (plot)
+{
+	browser() ; 
+
+	plot(model.LDA) ; 
+
+	browser();
+
+	partimat(as.factor(TRUE_FALSE) ~ (RepCIDSeqScore) + (RepETDScore), data = data.train, method = "lda");
+	
+	browser() ; 
+}
+
+wseq <- model.LDA$scaling[1] ; 
+wetd <- model.LDA$scaling[2] ; 
+X$NewScore <- wseq * (X$RepCIDSeqScore) + wetd * (X$RepETDScore) ; 
+
+cat("wseq = ", wseq, "\n") ; 
+cat("wetd = ", wetd, "\n") ; 
+
+X.sort <-  X[with(X, order(-NewScore)),]; 
+nrows <- dim(X.sort)[1] ; 
+
+for (i in 1: nrows)
+{
+	cat(i, "\n") ;
+	j <- seq(1,i, by=1) ; 
+	idecoy <- which(X.sort$TRUE_FALSE[j] == 'FALSE') ; 
+
+	fdr <- length(idecoy)/(i-length(idecoy)); 
+	if (fdr < 0.05)
+	{
+		X.sort$TypeID[i] = 'Verified' ; 
+	}else
+	{
+		X.sort$TypeID[i] = 'Tentative' ; 
+	}
+	
+
+
+}
+
+write.csv(X.sort, filenameout, quote = FALSE, row.names = FALSE) ; 
+
+
+if (plot)
+{
+
+p.TRUE <- hist(X.sort$NewScore[which(X.sort$TRUE_FALSE == TRUE)])  ; 
+p.FALSE <- hist(X.sort$NewScore[which(X.sort$TRUE_FALSE == FALSE)])  ; 
+
+range.x <- range(p.TRUE$breaks, p.FALSE$breaks) ; 
+range.y <- range(p.TRUE$counts, p.FALSE$counts) ; 
+
+plot(p.TRUE, col = rgb(0,0,1,1/4), xlim = range.x, ylim = range.y, main = "Histogram of Combined Score", xlab = "Combined Score") ;
+plot(p.FALSE, col = rgb(1,0,1,1/4), xlim = range.x, ylim = range.y, add = TRUE) ; 
+legend("topright", c("TRUE", "FALSE"), bty = c('solid', 'solid'), fill = c(rgb(0,0,1,1/4), rgb(1,0,0,1/4))) ;
+} 
+
+
+
+
+
