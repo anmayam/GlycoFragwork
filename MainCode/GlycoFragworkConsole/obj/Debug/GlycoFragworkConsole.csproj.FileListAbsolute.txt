@@ -26,4 +26,3 @@ I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\bin\Debug\GlycoFragworkDLL
 I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\obj\Debug\GlycoFragworkConsole.csprojResolveAssemblyReference.cache
 I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\bin\Debug\GlycoFragworkConsole.exe.config
 I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\bin\Debug\ThermoRawFileReaderDLL.dll
-I:\IU\GlycoFragwork\src\MainCode\GlycoFragworkConsole\bin\Debug\GlypIDEngine.pdb
