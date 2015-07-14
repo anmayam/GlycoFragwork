@@ -16,4 +16,10 @@
     <FallbackCulture>en-US</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <StartArguments>-i I:\IU\GlycoFragwork\data\RessomGroup\GU_HILIC\Map\inp_GU_HILIC.xml -p I:\IU\GlycoFragwork\data\RessomGroup\GU_HILIC\Map\param_GU_HILIC.xml</StartArguments>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <StartArguments>-i I:\IU\GlycoFragwork\data\RessomGroup\GU_HILIC\Map\inp_GU_HILIC.xml -p I:\IU\GlycoFragwork\data\RessomGroup\GU_HILIC\Map\param_GU_HILIC.xml</StartArguments>
+  </PropertyGroup>
 </Project>

@@ -38,30 +38,49 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>true</CodeAnalysisIgnoreBuiltInRuleSets>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+  </PropertyGroup>
   <ItemGroup>
+    <Reference Include="GlycansDraw">
+      <HintPath>..\DLLs\GlycansDraw.dll</HintPath>
+    </Reference>
     <Reference Include="GlycoLib, Version=1.0.0.3, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\GlycoLib.dll</HintPath>
+      <HintPath>..\DLLs\GlycoLib.dll</HintPath>
     </Reference>
     <Reference Include="GlycoSequence, Version=1.0.1.9, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\GlycoSequence.dll</HintPath>
-    </Reference>
-    <Reference Include="GlypIDEngine, Version=2.1.2.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\GlypIDEngine.dll</HintPath>
+      <HintPath>..\DLLs\GlycoSequence.dll</HintPath>
     </Reference>
     <Reference Include="MassLib, Version=1.0.0.7, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\MassLib.dll</HintPath>
+      <HintPath>..\DLLs\MassLib.dll</HintPath>
     </Reference>
     <Reference Include="MwtWinDll, Version=3.4.3989.38980, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\MwtWinDll.dll</HintPath>
+      <HintPath>..\DLLs\MwtWinDll.dll</HintPath>
     </Reference>
     <Reference Include="ProtLib, Version=1.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>DLLs\ProtLib.dll</HintPath>
+      <HintPath>..\DLLs\ProtLib.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core">
@@ -75,13 +94,15 @@
     </Reference>
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
-    <Reference Include="ThermoRawFileReaderDLL">
-      <HintPath>DLLs\ThermoRawFileReaderDLL.dll</HintPath>
+    <Reference Include="ThermoRawFileReaderDLL, Version=1.1.5021.22182, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\DLLs\ThermoRawFileReaderDLL.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Classes\FragEvents.cs" />
+    <Compile Include="Classes\GlycanRecord.cs" />
     <Compile Include="Classes\NonGlycopeptideRecord.cs" />
     <Compile Include="Classes\Params.cs" />
     <Compile Include="Classes\GlycopeptideRecord.cs" />
@@ -115,6 +136,12 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GlypIDEngine\GlypIDEngine.vcxproj">
+      <Project>{85B4560B-A4C2-4855-8EE2-D91126B37834}</Project>
+      <Name>GlypIDEngine</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

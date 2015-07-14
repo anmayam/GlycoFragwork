@@ -132,8 +132,7 @@ namespace GlycoFragworkDLL.Tasks
         }
 
 
-        
-
+         
          /// <summary>
          /// Function to read in glycopeptides dictionary from file
          /// </summary>
@@ -207,6 +206,45 @@ namespace GlycoFragworkDLL.Tasks
             CsvFileHandler2.closeFile(); 
          }
 
+
+        
+         public void LoadGlycansFromFile(string infile, bool add_decoy = false)
+         {
+             CSVFileHandler gHandler = new CSVFileHandler(infile, CSVFileHandler.READ_ONLY);
+             gHandler.openFile();
+             String[] Attributes2;
+             gHandler.openFile();
+             GlypID.Glycan.clsGlycan[] glycans = new GlypID.Glycan.clsGlycan[1];
+
+            // header
+             gHandler.readLine(); 
+
+             while ((Attributes2 = gHandler.readLine()) != null)
+             {
+                // The columns should be in this order : 
+                 // NumHexNAC,NumHex,NumDeHex,NumSia
+                // Convert into the following format
+                // "HexNAc * %d + Hex * %d + DeHex * %d + NeuAc * %d + SO3 * %d + NeuGc * %d "
+
+                 int num_hexnac = int.Parse(Attributes2[0]);
+                 int num_hex = int.Parse(Attributes2[1]);
+                 int num_dehex = int.Parse(Attributes2[2]);
+                 int num_neuac = int.Parse(Attributes2[3]);
+
+                 string comp = "HexNAc * " + num_hexnac + " + Hex * " + num_hex + " + DeHex * " + num_dehex + " + NeuAc * " + num_neuac + " + NeuGc * 0";
+                 GlypID.Glycan.clsGlycan this_glycan = new GlypID.Glycan.clsGlycan();
+                 this_glycan.composition = comp;
+                 this_glycan.average_mass = this_glycan.CalculateGlycanMass(false);
+                 this_glycan.accurate_mass = this_glycan.CalculateGlycanMass(true);
+                 this_glycan.is_decoy = false;
+                 //this_glycan
+
+                // glycans.
+
+             }
+
+
+         }
 
          public void LoadFasta(string fastaFile, List<String> peptides, bool set_decoy)
          {
@@ -487,7 +525,8 @@ namespace GlycoFragworkDLL.Tasks
                     Console.WriteLine("Reading Glycan List");
                     try
                     {
-                        GlycoPeptide.LoadGlycansFromList(glycanListFile, ref glycans, _parameters.UseDecoyGlycan);
+                        LoadGlycansFromFile(glycanListFile); 
+                        //GlycoPeptide.LoadGlycansFromList(glycanListFile, ref glycans, _parameters.UseDecoyGlycan);
                     }
                     catch (Exception e)
                     {
