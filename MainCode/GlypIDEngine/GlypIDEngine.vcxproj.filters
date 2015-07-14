@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ChargeDetermination">
+      <UniqueIdentifier>{3fa16f50-ab6a-4122-a9b1-b8284e78fcad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlycanCompositionManager">
+      <UniqueIdentifier>{124a40b7-6107-474b-9f15-5822cb637a08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HornTransform">
+      <UniqueIdentifier>{bd7bb16d-2c53-4eea-8d73-82ec4970c11e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HornTransformTheoreticalProfile">
+      <UniqueIdentifier>{10a7860b-3d7e-4ad6-b869-ecbccd13342f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IsoformProcessor">
+      <UniqueIdentifier>{96d47dd2-5827-44e7-b55e-070578715d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS2CIDETDCombinedScore">
+      <UniqueIdentifier>{fac023f9-6565-4431-9eac-76badf6dd532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS2CIDHCDCombinedScore">
+      <UniqueIdentifier>{00a3dba7-8e3c-40b1-9a04-47ad2c88c76a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS2CIDScore">
+      <UniqueIdentifier>{5fc21ab2-2211-4208-87f9-029d746ad1d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS2ETDScore">
+      <UniqueIdentifier>{38b28416-0e4f-4521-8c14-655b85839638}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS2HCDScore">
+      <UniqueIdentifier>{5b2088b8-852a-41f4-bf11-495303ff3492}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PeakProcessor">
+      <UniqueIdentifier>{4d4720fb-ca68-4096-bf0f-937892c3d977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RangeLocation">
+      <UniqueIdentifier>{b8fb3d0b-8944-47e9-ac1d-688e892b89c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Readers">
+      <UniqueIdentifier>{1da90828-be8f-4759-8e8e-1e0a4bb6c7f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SequenceManager">
+      <UniqueIdentifier>{9dfc289d-22a0-4931-bce1-eb26c69563b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{d5e5f22d-318e-41c2-abeb-5d92368116e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Writers">
+      <UniqueIdentifier>{eb562de0-6f6a-4c62-aac8-626df0f65760}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GlycanTheoretical">
+      <UniqueIdentifier>{7d7d2907-5472-4e63-8cfc-c76446e2ac2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Readers\Ramp">
+      <UniqueIdentifier>{2691bae6-35bb-4f92-a5ee-014252a650ce}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AssemblyInfo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsCIDETDScoringResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsCIDHCDScoringResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsCIDScoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsCIDScoringResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsCIDScoringScanResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsElementIsotopes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsETDScoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsETDScoringScanResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsFasta.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsGlycan.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsGlycopeptide.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHCDScoring.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHCDScoringResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHCDScoringScanResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHornTransform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHornTransformParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsHornTransformResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsIsotopeFit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsMercuryIsotopeDistribution.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsPeak.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsPeakProcessor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsPeakProcessorParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsProcRunner.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsRawData.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsScoringParameters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsSequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsTransformFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="clsTransformResults.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GlypIDEngineUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeDetermination\AutoCorrelationChargeDetermination.cpp">
+      <Filter>ChargeDetermination</Filter>
+    </ClCompile>
+    <ClCompile Include="GlycanCompositionManager\GlycanComposition.cpp">
+      <Filter>GlycanCompositionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GlycanCompositionManager\GlycanProcessor.cpp">
+      <Filter>GlycanCompositionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\AreaFit.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\ChiSqFit.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\IsotopeFit.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\IsotopeFitRecord.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\MassTransform.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\MercuryCache.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransform\PeakFit.cpp">
+      <Filter>HornTransform</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransformTheoreticalProfile\AtomicInformation.cpp">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransformTheoreticalProfile\Averagine.cpp">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransformTheoreticalProfile\MercuryIsotopeDistribution.cpp">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="HornTransformTheoreticalProfile\MolecularFormula.cpp">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoformProcessor\GlycanClusterScreening.cpp">
+      <Filter>IsoformProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="IsoformProcessor\Isoform.cpp">
+      <Filter>IsoformProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDETDCombinedScore\CIDETDCombinedInformationRecord.cpp">
+      <Filter>MS2CIDETDCombinedScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDHCDCombinedScore\CIDHCDCombinedInformationRecord.cpp">
+      <Filter>MS2CIDHCDCombinedScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDScore\CIDInformationRecord.cpp">
+      <Filter>MS2CIDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDScore\CIDScoring.cpp">
+      <Filter>MS2CIDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDScore\Distribution.cpp">
+      <Filter>MS2CIDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2CIDScore\Spectrum.cpp">
+      <Filter>MS2CIDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2ETDScore\ETDInformationRecord.cpp">
+      <Filter>MS2ETDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2ETDScore\ETDScoring.cpp">
+      <Filter>MS2ETDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2HCDScore\HCDInformationRecord.cpp">
+      <Filter>MS2HCDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="MS2HCDScore\HCDScoring.cpp">
+      <Filter>MS2HCDScore</Filter>
+    </ClCompile>
+    <ClCompile Include="GlycanTheoretical\element.cpp">
+      <Filter>GlycanTheoretical</Filter>
+    </ClCompile>
+    <ClCompile Include="GlycanTheoretical\Elemental.cpp">
+      <Filter>GlycanTheoretical</Filter>
+    </ClCompile>
+    <ClCompile Include="GlycanTheoretical\Nglycan.cpp">
+      <Filter>GlycanTheoretical</Filter>
+    </ClCompile>
+    <ClCompile Include="Writers\CIDETDCombinedScoringResults.cpp">
+      <Filter>Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Writers\CIDHCDCombinedScoringResults.cpp">
+      <Filter>Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Writers\CIDScoringResults.cpp">
+      <Filter>Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Writers\HCDScoringResults.cpp">
+      <Filter>Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Writers\LCMSTransformResults.cpp">
+      <Filter>Writers</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\BlockDeque.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\convolution.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\DeconException.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Fft32.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\GStrTok.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\helpers.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Interpolation.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\Matrix.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\savgol.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\SavGolSmoother.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\String_Utils.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities\util.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\Aminoacid.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\BioException.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\Digest.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\Protease.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\ProteaseManager.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\RangeLocation.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\RangeLocationFilter.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SequenceManager\Sequence.cpp">
+      <Filter>SequenceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\FastaFile.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\FinniganRawData.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\GlycanIo.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\MZXmlRawData.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\RawData.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\ReaderFactory.cpp">
+      <Filter>Readers</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\Ramp\base64.cpp">
+      <Filter>Readers\Ramp</Filter>
+    </ClCompile>
+    <ClCompile Include="Readers\Ramp\ramp.cpp">
+      <Filter>Readers\Ramp</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeLocation\RangeLocation.cpp">
+      <Filter>RangeLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="RangeLocation\RangeLocationFilter.cpp">
+      <Filter>RangeLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="PeakProcessor\CID_Peak.cpp">
+      <Filter>PeakProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="PeakProcessor\Peak.cpp">
+      <Filter>PeakProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="PeakProcessor\PeakData.cpp">
+      <Filter>PeakProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="PeakProcessor\PeakFit.cpp">
+      <Filter>PeakProcessor</Filter>
+    </ClCompile>
+    <ClCompile Include="PeakProcessor\PeakProcessor.cpp">
+      <Filter>PeakProcessor</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsCIDScoring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCIDETDScoringResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCIDHCDScoringResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCIDScoringResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsCIDScoringScanResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsElementIsotopes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsETDScoring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsETDScoringScanResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsFasta.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsGlycan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsGlycopeptide.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHCDScoring.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHCDScoringResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHCDScoringScanResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHornTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHornTransformParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsHornTransformResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsIsotopeFit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsMercuryIsotopeDistribution.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsLCMSPeak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPeak.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPeakProcessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsPeakProcessorParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsProcRunner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsRawData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsScoringParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsSequence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransformFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="clsTransformResults.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GlypIDEngineUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeDetermination\AutoCorrelationChargeDetermination.h">
+      <Filter>ChargeDetermination</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanCompositionManager\GlycanComposition.h">
+      <Filter>GlycanCompositionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanCompositionManager\GlycanProcessor.h">
+      <Filter>GlycanCompositionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\AreaFit.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\ChiSqFit.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\IsotopeFit.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\IsotopeFitRecord.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\MassTransform.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\MercuryCache.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransform\PeakFit.h">
+      <Filter>HornTransform</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransformTheoreticalProfile\AtomicInformation.h">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransformTheoreticalProfile\Averagine.h">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransformTheoreticalProfile\MercuryIsotopeDistribution.h">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="HornTransformTheoreticalProfile\MolecularFormula.h">
+      <Filter>HornTransformTheoreticalProfile</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoformProcessor\GlycanClusterScreening.h">
+      <Filter>IsoformProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="IsoformProcessor\Isoform.h">
+      <Filter>IsoformProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDETDCombinedScore\CIDETDCombinedInformationRecord.h">
+      <Filter>MS2CIDETDCombinedScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDHCDCombinedScore\CIDHCDCombinedInformationRecord.h">
+      <Filter>MS2CIDHCDCombinedScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDScore\CIDInformationRecord.h">
+      <Filter>MS2CIDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDScore\CIDScoring.h">
+      <Filter>MS2CIDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDScore\Distribution.h">
+      <Filter>MS2CIDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDScore\NGlycanRecord.h">
+      <Filter>MS2CIDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2CIDScore\Spectrum.h">
+      <Filter>MS2CIDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2ETDScore\ETDInformationRecord.h">
+      <Filter>MS2ETDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2ETDScore\ETDScoring.h">
+      <Filter>MS2ETDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2HCDScore\HCDInformationRecord.h">
+      <Filter>MS2HCDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="MS2HCDScore\HCDScoring.h">
+      <Filter>MS2HCDScore</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanTheoretical\data.h">
+      <Filter>GlycanTheoretical</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanTheoretical\element.h">
+      <Filter>GlycanTheoretical</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanTheoretical\Elemental.h">
+      <Filter>GlycanTheoretical</Filter>
+    </ClInclude>
+    <ClInclude Include="GlycanTheoretical\Nglycan.h">
+      <Filter>GlycanTheoretical</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\CIDETDCombinedScoringResults.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\CIDHCDCombinedScoringResults.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\CIDScoringResults.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\HCDScoringResults.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\LCMSPeak.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\LCMSPeakIndex.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Writers\LCMSTransformResults.h">
+      <Filter>Writers</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\BlockDeque.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\convolution.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\DeconException.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\FFT32.H">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\GStrTok.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\helpers.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Interpolation.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\Matrix.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\SavGolSmoother.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\String_Utils.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\system.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities\util.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\Aminoacid.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\BioException.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\Digest.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\Protease.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\ProteaseManager.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\RangeLocation.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\RangeLocationFilter.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SequenceManager\Sequence.h">
+      <Filter>SequenceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\FastaFile.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\FinniganRawData.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\GlycanIo.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\MZXmlRawData.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\RawData.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\ReaderFactory.h">
+      <Filter>Readers</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\Ramp\base64.h">
+      <Filter>Readers\Ramp</Filter>
+    </ClInclude>
+    <ClInclude Include="Readers\Ramp\ramp.h">
+      <Filter>Readers\Ramp</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeLocation\RangeLocation.h">
+      <Filter>RangeLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="RangeLocation\RangeLocationFilter.h">
+      <Filter>RangeLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\CID_Peak.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\GPixel.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\Peak.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\PeakData.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\PeakFit.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\PeakIndex.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\PeakProcessor.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+    <ClInclude Include="PeakProcessor\PeakStatistician.h">
+      <Filter>PeakProcessor</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Readers\Ramp\AUTHORS">
+      <Filter>Readers\Ramp</Filter>
+    </None>
+    <None Include="Readers\Ramp\COPYING">
+      <Filter>Readers\Ramp</Filter>
+    </None>
+    <None Include="Readers\Ramp\HISTORY">
+      <Filter>Readers\Ramp</Filter>
+    </None>
+    <None Include="Readers\Ramp\README">
+      <Filter>Readers\Ramp</Filter>
+    </None>
+  </ItemGroup>
+</Project>
